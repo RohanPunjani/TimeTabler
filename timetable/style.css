@@ -1,0 +1,31 @@
+.navbar-default{
+	border-radius: 0px;
+}
+.card{
+	border-radius: 2px;
+	box-shadow: 0px 4px 8px  rgba(0,0,0,0.8);
+	height: 250px;
+	margin: 25px 0;
+	background-color: #333;
+	color: white;
+	font-size: 2.5rem;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	text-shadow: 0.5px 0.5px black;
+	font-family: arial;
+	transition: all 0.15s ease-in-out;
+}
+.card a{
+	text-decoration: none;
+	color: white;
+}
+.card:hover {
+	box-shadow: 0px 8px 16px rgba(0,0,0,0.8);
+	font-size: 2.5rem;
+	text-shadow: 1px 1px black;
+}
+.navbar{
+	border-radius: 0px;
+}
